@@ -20,7 +20,7 @@
     std::cout << " Insert the burst time of the Process [: " << (i+1) << "]" << std::endl;
     std:: cin >> burstTime[i];
 
-    std::cout << " Insert the burst time of the Process [: " << (i+1) << "]" << std::endl;
+    std::cout << " Insert the waiting time of the Process [: " << (i+1) << "]" << std::endl;
     std:: cin >> WaitingTime[i];
 
     TournaroundTime[i]= burstTime[i] + WaitingTime[i];
